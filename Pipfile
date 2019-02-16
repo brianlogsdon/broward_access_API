@@ -13,5 +13,6 @@ gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 drf-yasg = "*"
+pyjwt="*"
 
 [dev-packages]
