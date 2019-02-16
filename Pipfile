@@ -16,4 +16,5 @@ drf-yasg = "*"
 pyjwt="*"
 auth_jwt="*"
 
+
 [dev-packages]
