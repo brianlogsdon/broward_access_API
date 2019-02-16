@@ -15,6 +15,7 @@ djangorestframework = "*"
 drf-yasg = "*"
 pyjwt="*"
 djangorestframework-jwt="*"
+django-rest-framework="*"
 
 
 [dev-packages]
