@@ -16,7 +16,7 @@ drf-yasg = "*"
 pyjwt="*"
 djangorestframework-jwt="*"
 django-rest-framework="*"
-
+djangorestframework_simplejwt="*"
 
 
 [dev-packages]
