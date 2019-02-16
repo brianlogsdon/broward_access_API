@@ -18,4 +18,5 @@ djangorestframework-jwt="*"
 django-rest-framework="*"
 
 
+
 [dev-packages]
