@@ -4,9 +4,12 @@ import json
 from rest_framework import status, viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from api.models import Contact, ContactSerializer, UserSerializer
 
 class ContactsView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    
     def get(self, request, contact_id=None):
 
         if contact_id is not None:
