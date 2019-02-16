@@ -14,7 +14,7 @@ django-cors-headers = "*"
 djangorestframework = "*"
 drf-yasg = "*"
 pyjwt="*"
-auth_jwt="*"
+
 
 
 [dev-packages]
