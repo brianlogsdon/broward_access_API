@@ -14,7 +14,7 @@ class Contact(models.Model):
     category = models.CharField(max_length = 20)
     icon = models.CharField(max_length=200)
     lat = models.DecimalField(max_digits=10, decimal_places=7)
-    lng = models.DecimalField(max_digits=10, decimal_places=7)
+    long = models.DecimalField(max_digits=10, decimal_places=7)
     creator = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
 class ContactSerializer(serializers.ModelSerializer):
