@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "785bd0316a5c4bf790fa577134679de8ede60eb639e4de10d8cdd0a5ff244846"
+            "sha256": "5a383a0b1c88086b7a50aa94d6d7d57146b59e17a7346187dff1190db48e286a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "auth-jwt": {
+            "hashes": [
+                "sha256:47a321e2e3707bf41a950ff4152280e47545c6c2257359bab90db88cabdccd1e"
+            ],
+            "index": "pypi",
+            "version": "==0.1.9"
+        },
         "certifi": {
             "hashes": [
                 "sha256:47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7",
@@ -227,6 +234,13 @@
             ],
             "index": "pypi",
             "version": "==2.7.7"
+        },
+        "pyjwt": {
+            "hashes": [
+                "sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e",
+                "sha256:8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96"
+            ],
+            "version": "==1.7.1"
         },
         "pytz": {
             "hashes": [

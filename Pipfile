@@ -13,5 +13,5 @@ gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 drf-yasg = "*"
-
+auth_jwt="*"
 [dev-packages]
