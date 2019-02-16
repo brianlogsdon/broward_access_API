@@ -10,7 +10,7 @@ class Contact(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=95)
     phone = models.CharField(max_length = 20)
-    info = models.CharField(max_length = 350)
+    info = models.CharField(max_length = 500)
     category = models.CharField(max_length = 20)
     icon = models.CharField(max_length=200)
     lat = models.DecimalField(max_digits=10, decimal_places=7)
