@@ -1,6 +1,6 @@
-# API Starter Template (Python & Django REST)
+# Broward Access API (Python & Django REST)
 
-A django-rest boilerplate for 4Geeks Academy students. It features ready-for-deployment on heroku instructions.
+Built from a django-rest boilerplate for 4Geeks Academy students. It features ready-for-deployment on heroku instructions.
 
 ## Features
 
